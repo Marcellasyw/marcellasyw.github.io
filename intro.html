@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Chibi Life - Introduction </title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>
+          <h1> What's Your Name? </h1>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <form id="formInt" onsubmit="gender(event)">
+          <!-- <div> -->
+            <input type="text" name="name" id="player-name" required> <br> 
+            <h1> Choose Your Character </h1>
+            <img src="pict/female-removebg-preview.png" alt="girl" height="200" width="300"> <br>
+            <input type="radio" name="Character" id="girl" required> <br>
+            <h2> Or </h2>
+            <img src="pict/male-removebg-preview.png" alt="boy" height="250" width="200"> <br>
+            <input type="radio" name="Character" id="boy" required> <br>
+            <button type="submit"> Start </button>
+            
+          </form>
+            <!-- </div> -->
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <h1> Rules And How To Win</h1>
+          <p> HP must be 100 and Money must be 1000 to Win </p>
+          <p> HP higher than 100 or lower than 0 mean You Lose </p>
+          <p>Money lower than 0 mean You Lose</p>
+          <p>Everytime you click Work your HP will decrease by 10 and your money will increase by 30</p>
+          <p>Everytime you click Health your HP will increase by 20 and your money will decrease by 10</p>
+        </th>
+      </tr>
+    </table>
+    <script src="Index.js"></script>
+  </body>
+</html>
